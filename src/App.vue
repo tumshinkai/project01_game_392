@@ -46,10 +46,10 @@ const player2 = ref('');
 const result = ref('');
 
 const img = {
-  'ค้อน': '/src/assets/hammer.svg',
-  'กระดาษ': '/src/assets/paper.svg',
-  'กรรไกร': '/src/assets/scissors.svg',
-  'ความรัก':'/src/assets/hearts.svg'
+  'ค้อน': 'https://thenounproject.com/api/private/icons/1405897/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0',
+  'กระดาษ': 'https://thenounproject.com/api/private/icons/5900343/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0',
+  'กรรไกร': 'https://thenounproject.com/api/private/icons/2482480/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0',
+  'ความรัก':'https://thenounproject.com/api/private/icons/6060794/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0'
 };
 
 
@@ -271,6 +271,11 @@ function reset_round() {
   justify-content: center;
   align-items: center; 
   margin-top: 20px;
+}
+
+.img {
+  width: 250px; /* Increase the width as needed */
+  height: 250px; /* Increase the height as needed */
 }
 
 </style>
